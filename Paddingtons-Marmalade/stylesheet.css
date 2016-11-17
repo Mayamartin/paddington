@@ -1,0 +1,209 @@
+
+
+
+
+
+body {
+	background: url("images/Stripe2.jpg");
+}
+
+.page-header {
+	background: url("images/bees.jpg");
+	box-shadow: 11px 2px 50px 0px rgba(0,0,0,0.75);
+	
+
+}
+
+a:hover {
+	background: 
+
+}
+.imghead {
+	margin-left: 300px;
+}
+
+
+.img-circle {
+
+	margin-left: 500px;
+	box-shadow: 11px 2px 50px 0px rgba(0,0,0,0.75);
+	border-left: dashed;
+	border-color: #F7B45A;
+
+}
+
+.jumbotron {
+	background:  #ffffb3;
+	border-top: dotted 5px;
+	border-bottom: dashed 5px;
+	border-color: #F7B45A;
+
+}
+
+
+
+#page-wrap {
+     width: 1000px;
+     margin: 0 auto;
+     background: #fff ;
+     border-style: dotted;
+     box-shadow: 11px 2px 43px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.thumbnail: {
+	 width: 1000px;
+     margin: 0 auto;
+     float: right;
+
+} 
+
+#M2 {
+	float: right;
+}
+
+#divider5 {
+	background: url("images/littlebee.jpg");
+	width: 770px;
+	margin-bottom: 30px;
+	box-shadow: 11px 2px 50px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+
+
+}
+
+p {
+	font-family: Quicksand;
+	color:   #000066;
+}
+
+.nav {
+	background: url("Images/plaid.jpg");
+}
+
+
+div.Gal {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    float: left;
+}
+
+div.Gal:hover {
+    border: 1px solid #777;
+}
+
+div.Gal img {
+    width: 100%;
+    height: auto;
+}
+
+#Curve {
+	margin: 200px;
+	height: 40px;
+
+
+}
+
+div.imag {
+    margin: 5px;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 100px;
+
+
+
+}
+
+div.imag:hover {
+    border: 1px solid #777;
+}
+
+div.imag img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+#page {
+	background: url("images/BeeTrail.jpg");
+}
+
+
+.imag {
+	width: 95%;
+}
+
+input[type=email]{
+	background-color: #ffffb3; 
+
+}
+
+input[type=password]{
+	background-color: #ffffb3; 
+
+}
+
+
+
+/************** SMALLER THAN 993 *******************/
+
+@media only screen and (max-width:993px) {
+    #page-wrap {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .imghead {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #divider5 {
+        width: 100%;
+    }
+
+    .jumbotron {
+        width: 100%;
+    }
+}
+
+
+/************** SMALLER THAN 996 *******************/
+
+@media only screen and (max-width:996px) {
+    img {
+        width: 100%;
+    }
+    .img-circle {
+        width: 70%;
+    }
+
+    .imghead {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+    }
+}
